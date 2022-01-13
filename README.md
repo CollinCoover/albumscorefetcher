@@ -2,7 +2,7 @@ Album Review Score Fetcher
 
 Currently creates API endpoint to fetch pitchfork album review scores. Will be adding more sources for scoring in the future.
 
-Endpoint: 
+Endpoint: (Replace album and artist with appropriate values. album_name is the path for the API and shouldnt be changed)
 https://albumscorefetcher.uc.r.appspot.com/album_name/album/artist
   
   
