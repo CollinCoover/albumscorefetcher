@@ -26,7 +26,7 @@ api.add_resource(Users, '/users') #users is entry point
 @app.route('/album_name/<string:album>/<string:artist>')
 def album_name(album: str, artist: str):
     score = getInfo(getAlbumUrl(album, artist))
-    return jsonify(message="Album: " + album + ". Artist3: " + artist + ". Score: " + score)
+    return jsonify(message="Album: " + album + ". Artist: " + artist + ". Score: " + score)
 
 
 #Scrapes score from a pitchfork album review
